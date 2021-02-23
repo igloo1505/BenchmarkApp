@@ -15,6 +15,7 @@
 		FC00859625E429A90040C349 /* BenchmarkApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC00859425E429A90040C349 /* BenchmarkApp.xcdatamodeld */; };
 		FC0085A125E429A90040C349 /* BenchmarkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0085A025E429A90040C349 /* BenchmarkAppTests.swift */; };
 		FC0085AC25E429A90040C349 /* BenchmarkAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0085AB25E429A90040C349 /* BenchmarkAppUITests.swift */; };
+		FC4E882B25E47605009840E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4E882A25E47605009840E9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FC0085A725E429A90040C349 /* BenchmarkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenchmarkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0085AB25E429A90040C349 /* BenchmarkAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchmarkAppUITests.swift; sourceTree = "<group>"; };
 		FC0085AD25E429A90040C349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4E882A25E47605009840E9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		FC00858825E429A60040C349 /* BenchmarkApp */ = {
 			isa = PBXGroup;
 			children = (
+				FC4E882925E475E4009840E9 /* View */,
 				FC00858925E429A60040C349 /* BenchmarkAppApp.swift */,
 				FC00858B25E429A60040C349 /* ContentView.swift */,
 				FC00858D25E429A90040C349 /* Assets.xcassets */,
@@ -134,6 +137,14 @@
 				FC0085AD25E429A90040C349 /* Info.plist */,
 			);
 			path = BenchmarkAppUITests;
+			sourceTree = "<group>";
+		};
+		FC4E882925E475E4009840E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC4E882A25E47605009840E9 /* LaunchScreen.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC4E882B25E47605009840E9 /* LaunchScreen.storyboard in Resources */,
 				FC00859125E429A90040C349 /* Preview Assets.xcassets in Resources */,
 				FC00858E25E429A90040C349 /* Assets.xcassets in Resources */,
 			);
