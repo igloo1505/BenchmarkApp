@@ -7,7 +7,25 @@
 		<key>BenchmarkApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>35</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FC00858525E429A60040C349</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC00859B25E429A90040C349</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC0085A625E429A90040C349</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
